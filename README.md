@@ -56,9 +56,6 @@ npm run build
 
 This will create a `build` folder with the optimized and minified production build of the app.
 
-## Contributing
-
-Feel free to contribute by opening issues or submitting pull requests. Your feedback and contributions are highly appreciated!
 
 ## License
 
