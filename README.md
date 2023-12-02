@@ -1,24 +1,27 @@
-# The Count-Your-Days App
+# NuReader
+### News Aggregation and Analysis
 
-This is a simple experimental React app that allows you to count down or up to a selected date and save anniversaries or events.
+NuReader is a React-based web application designed for news aggregation, analysis, and providing hands-free audio versions of news summaries.
 
 ## Features
 
-- Countdown or count up to a selected date and time
-- Save anniversaries or events with a name and date
+- Aggregates news articles from various sources.
+- Allows users to analyze news trends and perform searches.
+- Provides a hands-free audio version of news summaries.
+- Enables users to customize themes for a personalized experience.
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/s7chak/timeplay.git
+   git clone https://github.com/s7chak/nureader.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd timeplay
+   cd nureader
    ```
 
 3. Install the dependencies:
@@ -37,13 +40,11 @@ This is a simple experimental React app that allows you to count down or up to a
 
    This will launch the app in your browser at [http://localhost:3000](http://localhost:3000).
 
-2. Select a date and time using the date picker.
+2. Explore news articles, trends, and perform searches.
 
-3. Click the "Count" button to start the countdown or count up.
+3. Customize your theme by toggling between light and dark modes.
 
-4. Optionally, enter a name for the selected date and click the "Save" button to store it as an anniversary or event.
-
-5. Toggle the theme between light and dark by clicking the "Toggle Theme" button.
+4. Utilize the hands-free audio feature for news summaries.
 
 ## Build
 
@@ -55,3 +56,10 @@ npm run build
 
 This will create a `build` folder with the optimized and minified production build of the app.
 
+## Contributing
+
+Feel free to contribute by opening issues or submitting pull requests. Your feedback and contributions are highly appreciated!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
