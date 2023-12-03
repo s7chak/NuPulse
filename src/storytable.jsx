@@ -18,7 +18,7 @@ const StoryTable = ({ res }) => {
           {data.map((story, index) => (
             <tr key={index}>
               <td>
-                <Tile title={story.OTitle} link={story.Link} type={story.Type} />
+                <Tile title={story.OTitle} link={story.Link} type={story.Type} datetime={story.Date} />
               </td>
             </tr>
           ))}
@@ -29,7 +29,7 @@ const StoryTable = ({ res }) => {
 };
 
 
-const Tile = ({ title, link, type }) => {
+const Tile = ({ title, link, type, datetime }) => {
   const handleTileClick = () => {
     window.open(link, '_blank');
   };
@@ -41,6 +41,7 @@ const Tile = ({ title, link, type }) => {
           {title}
         </a>
         <span className="type">{type}</span>
+        <span className="pdate">{datetime}</span>
       </div>
     </div>
   );

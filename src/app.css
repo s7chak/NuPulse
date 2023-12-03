@@ -197,3 +197,36 @@ input {
 .type {
   color: var(--accent);
 }
+
+.pdate {
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.wccontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.wcimg {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.wcimgt {
+  color: var(--lighter);
+  padding: 10px;
+  position: relative;
+}
+.default {
+  max-width: 300px;
+  transition: max-width 0.5s ease; 
+}
+
+.expanded {
+  max-width: 800px;
+  transition: max-width 0.5s ease; 
+}
+.summary {
+  color: var(--lighter);
+}
