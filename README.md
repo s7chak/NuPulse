@@ -1,7 +1,7 @@
-# NuReader
+# NuPulse
 ### News Aggregation and Analysis
 
-NuReader is a React-based web application designed for news aggregation, analysis, and providing hands-free audio versions of news summaries.
+NuPulse is a React-based web application designed for news aggregation, analysis, and providing hands-free audio versions of news summaries.
 
 ## Features
 
@@ -15,13 +15,13 @@ NuReader is a React-based web application designed for news aggregation, analysi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/s7chak/nureader.git
+   git clone https://github.com/s7chak/NuPulse.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd nureader
+   cd NuPulse
    ```
 
 3. Install the dependencies:
